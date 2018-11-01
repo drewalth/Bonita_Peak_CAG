@@ -1,0 +1,26 @@
+<!-- 
+cmsmasters_package: All Business
+cmsmasters_version: 1.0.0
+-->
+<wpml-config>
+    <admin-texts>
+        <key name="cmsmasters_options_all_business_header">
+            <key name="all_business_header_top_line_short_info" />
+            <key name="all_business_header_top_line_donations_but_text" />
+            <key name="all_business_header_donations_but_text" />
+            <key name="all_business_header_add_cont_cust_html" />
+        </key>
+		<key name="cmsmasters_options_all_business_footer">
+            <key name="all_business_footer_html" />
+            <key name="all_business_footer_copyright" />
+        </key>
+		<key name="cmsmasters_options_all_business_single_project">
+            <key name="all_business_portfolio_project_details_title" />
+        </key>
+		<key name="cmsmasters_options_all_business_single_profile">
+            <key name="all_business_profile_post_details_title" />
+        </key>
+    </admin-texts>
+</wpml-config>
+
+

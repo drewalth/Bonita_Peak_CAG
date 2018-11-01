@@ -1,0 +1,667 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	All Business
+ * @version 	1.1.1
+ * 
+ * WooCommerce RTL Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+.product .preloader img {
+	left: auto;
+	right: 0;
+}
+
+.cmsmasters_star_rating .cmsmasters_star {
+	float: right;
+}
+
+.cmsmasters_star_rating .cmsmasters_star_color_wrap {
+	left: auto;
+	right: 0;
+}
+
+.comment-form-rating .stars > span a:before {
+	left: auto;
+	right: 0;
+}
+
+.comment-form-rating .stars > span a {
+	float: left;
+}
+
+.comment-respond .comment-form > p:not(.comment-form-rating):not(.form-submit) label {
+	left: auto;
+	right: 0;
+}
+
+.onsale,
+.out-of-stock {
+	left: 20px;
+	right: auto;
+}
+
+.out-of-stock {
+	left: auto;
+	right: 20px;
+}
+
+.input-checkbox,
+.input-radio,
+input.shipping_method {
+	left: auto;
+	right: 0;
+}
+
+.input-checkbox + label,
+.input-radio + label,
+input.shipping_method + label {
+	padding-left: 0;
+	padding-right: 25px;
+}
+
+.input-checkbox + label:before,
+.input-radio + label:before,
+input.shipping_method + label:before {
+	left: auto;
+	right: 0;
+}
+
+.input-checkbox + label:after,
+.input-radio + label:after,
+input.shipping_method + label:after {
+	left: auto;
+	right: 4px;
+}
+
+.woocommerce-message .button,
+.woocommerce-info .button,
+.woocommerce-error .button {
+	margin-right: 0;
+	margin-left: 30px;
+}
+
+.quantity .text {
+	padding-left: 0;
+	padding-right: 5px;
+}
+
+dl.variation dt {
+	padding-right: 0;
+	padding-left: 10px;
+	float: right;
+}
+
+dl.variation dd {
+	float: right;
+}
+
+.col2-set > * {
+	float: right;
+}
+
+.form-row {
+	float: right;
+}
+
+.form-row label {
+	left: auto;
+	right: 0;
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	1. Shop Page */
+/*-------------------------------------------------------------------------*/
+.cmsmasters_woo_wrap_result .woocommerce-result-count {
+	float: left;
+}
+
+.cmsmasters_woo_wrap_result .woocommerce-ordering {
+	float: right;
+}
+
+.cmsmasters_products .product .cmsmasters_product .cmsmasters_product_inner .cmsmasters_product_img_wrap .cmsmasters_product_img img {
+	left: auto;
+	right: 0;
+}
+
+.cmsmasters_products .product .cmsmasters_product .cmsmasters_product_inner .cmsmasters_product_img_wrap .cmsmasters_product_footer {
+	left: auto;
+	right: 0;
+}
+
+.cmsmasters_products .product .cmsmasters_product .cmsmasters_product_inner .cmsmasters_product_img_wrap .cmsmasters_product_footer > a {
+	text-align: right;
+}
+
+.cmsmasters_products .product .cmsmasters_product .cmsmasters_product_inner .cmsmasters_product_img_wrap .cmsmasters_product_footer > a:first-child,
+.cmsmasters_products .product .cmsmasters_product .cmsmasters_product_inner .cmsmasters_product_img_wrap .cmsmasters_product_footer > a.added_to_cart {
+	margin-right: 0;
+}
+
+.cmsmasters_products .product .cmsmasters_product .cmsmasters_product_inner .cmsmasters_product_img_wrap .cmsmasters_product_footer > a:before {
+	left: 20px;
+	right: auto;
+}
+
+.cmsmasters_products .product .cmsmasters_product .cmsmasters_product_inner .cmsmasters_product_info .cmsmasters_star_rating {
+	float: left;
+}
+
+.cmsmasters_products .product .cmsmasters_product .cmsmasters_product_inner .cmsmasters_product_info .price ins {
+	margin-right: 0;
+	margin-left: 7px;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	2. Single Product */
+/*-------------------------------------------------------------------------*/
+.cmsmasters_single_product .cmsmasters_product_left_column {
+	float: right;
+}
+
+.cmsmasters_single_product .cmsmasters_product_right_column {
+	padding-left: 0;
+	padding-right: 40px;
+	float: left;
+}
+
+.cmsmasters_single_product .cmsmasters_product_right_column .price del {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.cmsmasters_single_product .cmsmasters_product_right_column .cart .variations td.value {
+	padding-left: 15px;
+	padding-right: 0;
+}
+
+.cmsmasters_single_product .cmsmasters_product_right_column .cart .quantity {
+	padding-right: 0;
+	padding-left: 15px;
+	float: right;
+}
+
+.cmsmasters_single_product .cmsmasters_woo_tabs .shop_attributes th,
+.cmsmasters_single_product .cmsmasters_woo_tabs .shop_attributes td {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.cmsmasters_single_product .cmsmasters_woo_tabs .shop_attributes th {
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+.cmsmasters_single_product .cmsmasters_woo_tabs #reviews #comments .cmsmasters_star_rating {
+	float: left;
+}
+
+.cmsmasters_single_product .cmsmasters_woo_tabs #reviews #comments > h2 {
+	padding-right: 0;
+	padding-left: 15px;
+}
+
+.cmsmasters_single_product .cmsmasters_woo_tabs #reviews #comments .commentlist .comment .comment_container .avatar {
+	margin-left: 35px;
+	margin-right: 0;
+	float: right;
+}
+
+.cmsmasters_single_product .cmsmasters_woo_tabs #reviews #comments .commentlist .comment .comment_container .comment-text .cmsmasters_star_rating {
+	float: left;
+}
+
+.cmsmasters_single_product .cmsmasters_woo_tabs #reviews #comments .commentlist .comment .comment_container .comment-text .meta {
+	padding-left: 15px;
+	padding-right: 0;
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	3. Cart */
+/*-------------------------------------------------------------------------*/
+.shop_table th,
+.shop_table td {
+	padding-left: 10px;
+	padding-right: 25px;
+	text-align: right;
+}
+
+.shop_table td {
+	padding-left: 10px;
+	padding-right: 25px;
+}
+
+.shop_table td.actions {
+	text-align: left;
+}
+
+.shop_table td.actions .coupon {
+	float: right;
+}
+
+.shop_table td.actions .button {
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+.cart-collaterals .cart_totals th,
+.cart-collaterals .cart_totals td {
+	padding-left: 10px;
+	padding-right: 25px;
+	text-align: right;
+}
+
+.cart-collaterals .cart_totals td {
+	padding-left: 10px;
+	padding-right: 25px;
+}
+
+.cart_totals table tr th,
+.cart_totals table tr td {
+	text-align: right;
+}
+
+.cart_totals table tr td {
+	text-align: left;
+}
+
+.cart_totals table tr.shipping #shipping_method input[type="checkbox"],
+.cart_totals table tr.shipping #shipping_method input[type="radio"] {
+	left: 0;
+	right: auto;
+	float: left;
+}
+
+.cart_totals table tr.shipping #shipping_method input[type="checkbox"] + label,
+.cart_totals table tr.shipping #shipping_method input[type="radio"] + label {
+	padding-left: 25px;
+	padding-right: 0;
+	float: left;
+}
+
+.cart_totals table tr.shipping #shipping_method input[type="checkbox"] + label:before,
+.cart_totals table tr.shipping #shipping_method input[type="radio"] + label:before {
+	left: 0;
+	right: auto;
+}
+
+.cart_totals table tr.shipping #shipping_method input[type="checkbox"] + label:after {
+	left: 3px;
+	right: auto;
+}
+
+.cart_totals table tr.shipping #shipping_method input[type="radio"] + label:after {
+	left: 4px;
+	right: auto;
+}
+
+.shipping-calculator-form .form-row {
+	float: right;
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	4. Checkout */
+/*-------------------------------------------------------------------------*/
+body .select2-container .select2-choice,
+body .select2-container.select2-drop-above .select2-choice {
+	padding:8px !important;
+}
+
+body .select2-container .select2-choice .select2-arrow, 
+body .select2-container.select2-drop-above .select2-choice .select2-arrow {
+	left:10px !important;
+}
+
+.woocommerce-billing-fields #ship-to-different-address,
+.woocommerce-shipping-fields #ship-to-different-address {
+	float: left;
+}
+
+.woocommerce-billing-fields #ship-to-different-address label,
+.woocommerce-shipping-fields #ship-to-different-address label {
+	padding-left: 0;
+	padding-right: 25px;
+}
+
+#order_review .shop_table tr th,
+#order_review .shop_table tr td {
+	border-left-width: 0;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+#order_review .shop_table tr th:first-child,
+#order_review .shop_table tr td:first-child {
+	border-right-width: 0;
+	border-right-style: solid;
+}
+
+#order_review #payment .payment_methods .payment_box:before {
+	left: auto;
+	right: 20px;
+}
+
+#order_review #payment .place-order .terms {
+	padding-left: 0;
+	padding-right: 25px;
+}
+
+#order_review #payment .place-order .terms label {
+	padding-left: 0;
+	padding-right: 5px;
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	5. Order */
+/*-------------------------------------------------------------------------*/
+ul.order_details li {
+	border-left-width: 0;
+	border-right-width: 1px;
+	border-right-style: solid;
+	float: right;
+}
+
+ul.order_details li:first-child {
+	border-right-width: 0;
+	border-right-style: solid;
+}
+
+.shop_table.order_details,
+.shop_table.customer_details {
+	border-right-width: 0;
+	border-right-style: solid;
+}
+
+.shop_table.order_details tr th:first-child,
+.shop_table.customer_details tr th:first-child,
+.shop_table.order_details tr td:first-child,
+.shop_table.customer_details tr td:first-child {
+	border-right-width: 0;
+	border-right-style: solid;
+}
+
+.shop_table.order_details th,
+.shop_table.customer_details th,
+.shop_table.order_details td,
+.shop_table.customer_details td {
+	border-left-width: 0;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.customer_details dt,
+.customer_details dd {
+	float: right;
+}
+
+.customer_details dt {
+	padding-right: 0;
+	padding-left: 20px;
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	6. Dynamic Cart */
+/*-------------------------------------------------------------------------*/
+.search_wrap + .cmsmasters_dynamic_cart {
+	margin-right: 40px;
+	margin-left: -10px;
+}
+
+.enable_header_centered .cmsmasters_dynamic_cart {
+	left: 20px;
+	right: auto;
+}
+
+.cmsmasters_dynamic_cart {
+	margin-left: 0;
+	margin-right: 40px;
+	float: left;
+}
+
+.cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:after {
+	left: auto;
+	right: 0;
+}
+
+.cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:before {
+	margin-left: 6px;
+	margin-right: 0;
+}
+
+.cmsmasters_dynamic_cart .widget_shopping_cart_content {
+	right: auto;
+	left: -40px;
+}
+
+.cmsmasters_dynamic_cart .widget_shopping_cart_content:before,
+.cmsmasters_dynamic_cart .widget_shopping_cart_content:after {
+	right: auto;
+	left: 37px;
+}
+
+.cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li:hover {
+	padding-right: 0;
+	padding-left: 15px;
+}
+
+.cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a.remove {
+	padding-left: 0;
+	padding-right: 10px;
+	right: auto;
+	left: 0;
+}
+
+.cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li img {
+	margin-left: 15px;
+	margin-right: 0;
+	float: right;
+}
+
+.cmsmasters_dynamic_cart .widget_shopping_cart_content .total strong {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button {
+	float: right;
+}
+
+.cmsmasters_added_product_info {
+	right: auto;
+	left: -40px;
+}
+
+.cmsmasters_added_product_info .cmsmasters_added_product_info_img {
+	float: left;
+}
+
+.cmsmasters_added_product_info .cmsmasters_added_product_info_text {
+	padding-left: 15px;
+	padding-right: 0;
+	float: right;
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	7. Widgets */
+/*-------------------------------------------------------------------------*/
+.widget_shopping_cart .widget_shopping_cart_content .cart_list li a {
+	padding-left: 20px;
+	padding-right: 0;
+}
+
+.widget_shopping_cart .widget_shopping_cart_content .cart_list li a.remove {
+	float: left;
+}
+
+.widget_shopping_cart .widget_shopping_cart_content .total strong {
+	margin-right: 0;
+	margin-left: 8px;
+}
+
+.widget_shopping_cart .widget_shopping_cart_content .buttons .button {
+	float: right;
+}
+
+.widget_product_tag_cloud .tagcloud a {
+	float: right;
+}
+
+.widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle:last-child {
+	margin-left: 0;
+	margin-right: -8px;
+}
+
+.widget_price_filter .price_slider_wrapper .price_slider_amount .button {
+	float: left;
+}
+
+.widget_price_filter .price_slider_wrapper .price_slider_amount .price_label {
+	padding-left: 15px;
+	padding-right: 0;
+}
+
+.widget_product_categories ul ul.children > li > a {
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+.widget_product_categories ul ul.children > li ul.children > li > a {
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+.widget_product_categories ul ul.children > li ul.children > li ul.children > li > a {
+	padding-left: 0;
+	padding-right: 45px;
+}
+
+.widget_product_categories ul ul.children > li ul.children > li ul.children > li ul.children > li > a {
+	padding-left: 0;
+	padding-right: 60px;
+}
+
+.widget_product_categories ul ul.children > li ul.children > li ul.children > li ul.children > li ul.children > li > a {
+	padding-left: 0;
+	padding-right: 75px;
+}
+
+.widget ul.product_list_widget li img {
+	margin-left: 20px;
+	margin-right: 0;
+	float: right;
+}
+
+.widget ul.product_list_widget li del {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	8. Shortcodes */
+/*-------------------------------------------------------------------------*/
+.cmsmasters_products_shortcode .cmsmasters_products .product,
+.cmsmasters_selected_products_shortcode .cmsmasters_products .product {
+	float: right;
+}
+
+.create-account .input-radio + label,
+.create-account .input-checkbox + label {
+	padding-left: 0;
+	padding-right: 25px;
+}
+
+.login label.inline,
+.register label.inline {
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	9.	CSS3 Animations	*/
+/*-------------------------------------------------------------------------*/
+html.csstransitions .cmsmasters_dynamic_cart {
+	-webkit-transition: left .3s ease-in-out, opacity .3s ease-in-out;
+	-moz-transition: left .3s ease-in-out, opacity .3s ease-in-out;
+	-ms-transition: left .3s ease-in-out, opacity .3s ease-in-out;
+	-o-transition: left .3s ease-in-out, opacity .3s ease-in-out;
+	transition: left .3s ease-in-out, opacity .3s ease-in-out;
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	3.	Small Tablet Monitor
+/*-------------------------------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+	#order_review .shop_table th,
+	#order_review .shop_table td {
+		padding-left: 0;
+		padding-right: 10px;
+	}
+
+	ul.order_details li:nth-child(2n + 1) {
+		border-right-width: 0;
+		border-right-style: solid;
+	}
+
+	.shop_table.order_details th,
+	.shop_table.order_details td {
+		padding-left: 0;
+		padding-right: 10px;
+	}
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	4.	Phone Monitor
+/*-------------------------------------------------------------------------*/
+@media only screen and (max-width: 540px) {
+	.cmsmasters_single_product .cmsmasters_woo_tabs #reviews #comments .commentlist .comment .comment_container .comment-text .meta {
+		padding-left: 0;
+	}
+
+	.woocommerce-message .button,
+	.woocommerce-info .button {
+		margin-left: 0;
+	}
+
+	#order_review #payment .place-order .terms {
+		float: none;
+		padding-left: 0;
+		padding-right: 5px;
+	}
+
+	ul.order_details li:nth-child(n) {
+		border-right-width: 0;
+		border-right-style: solid;
+	}
+}

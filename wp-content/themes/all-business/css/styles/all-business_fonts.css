@@ -1,0 +1,957 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	All Business
+ * @version 	1.1.1
+ * 
+ * Theme Fonts Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+/***************** Start Theme Font Styles ******************/
+
+	/* Start Content Font */
+	body {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+	}
+	
+	.post.cmsmasters_post_default .cmsmasters_post_cont_wrap .cmsmasters_post_cont .cmsmasters_post_footer .cmsmasters_post_meta_info > a:before,
+	.post.cmsmasters_masonry_type .cmsmasters_post_cont_wrap .cmsmasters_post_cont .cmsmasters_post_footer .cmsmasters_post_meta_info > a:before,
+	.post.cmsmasters_timeline_type .cmsmasters_post_cont_wrap .cmsmasters_post_cont .cmsmasters_post_footer .cmsmasters_post_meta_info > a:before,
+	.post.cmsmasters_puzzle_type .cmsmasters_post_cont .cmsmasters_post_footer .cmsmasters_post_meta_info > a:before,
+	.portfolio.grid .project .project_inner .cmsmasters_project_footer .cmsmasters_project_meta_info a:before,
+	.portfolio.puzzle .project .project_inner .cmsmasters_project_info_wrap .cmsmasters_project_footer a:before,
+	.cmsmasters_posts_slider .post .cmsmasters_slider_post_cont .cmsmasters_slider_post_footer .cmsmasters_slider_post_meta_info a:before,
+	.cmsmasters_posts_slider .project .slider_project_outer .slider_project_inner .cmsmasters_slider_project_cont_info_wrap .cmsmasters_slider_project_footer a:before,
+	.blog.opened-article .post .cmsmasters_post_cont_wrap .cmsmasters_post_cont .cmsmasters_post_meta_info a:before {
+		font-size:13px;
+	}
+	
+	.cmsmasters_twitter .cmsmasters_twitter_item_content,
+	.cmsmasters_twitter .cmsmasters_twitter_item_content a {
+		font-size:14px;
+	}
+	
+	.header_top .meta_wrap > *:before {
+		font-size:15px;
+	}
+	
+	.cmsmasters_quotes_slider .wrap_quote_title,
+	.cmsmasters_quotes_slider .wrap_quote_title a
+	.cmsmasters_quotes_grid .wrap_quote_title,
+	.cmsmasters_quotes_grid .wrap_quote_title a,
+	.cmsmasters_twitter .published,
+	.post.cmsmasters_post_default .cmsmasters_post_cont_wrap .cmsmasters_post_cont .cmsmasters_post_cont_info .cmsmasters_post_date,
+	.post.cmsmasters_masonry_type .cmsmasters_post_cont_wrap .cmsmasters_post_date,
+	.post.cmsmasters_timeline_type .cmsmasters_post_cont_wrap .cmsmasters_post_date,
+	.cmsmasters_posts_slider .post .cmsmasters_slider_post_cont .cmsmasters_post_date,
+	.blog.opened-article .post .cmsmasters_post_cont_wrap .cmsmasters_post_cont .cmsmasters_post_cont_info .cmsmasters_post_date,
+	.post_comments .cmsmasters_comment_item_date,
+	.footer_copyright,
+	.widget_calendar #wp-calendar thead,
+	.widget_custom_twitter_entries .tweet_list .tweet_time {
+		font-size:12px;
+	}
+	
+	.header_top,
+	.header_top a,
+	.post.cmsmasters_post_default .cmsmasters_post_cont_wrap .cmsmasters_post_cont .cmsmasters_post_footer .cmsmasters_post_meta_info > a,
+	.post.cmsmasters_masonry_type .cmsmasters_post_cont_wrap .cmsmasters_post_cont .cmsmasters_post_footer .cmsmasters_post_meta_info > a,
+	.post.cmsmasters_timeline_type .cmsmasters_post_cont_wrap .cmsmasters_post_cont .cmsmasters_post_footer .cmsmasters_post_meta_info > a,
+	.post.cmsmasters_puzzle_type .cmsmasters_post_cont .cmsmasters_post_footer .cmsmasters_post_meta_info > a,
+	.portfolio.grid .project .project_inner .cmsmasters_project_footer .cmsmasters_project_meta_info a,
+	.portfolio.puzzle .project .project_inner .cmsmasters_project_info_wrap .cmsmasters_project_footer a,
+	.cmsmasters_posts_slider .post .cmsmasters_slider_post_cont .cmsmasters_slider_post_footer .cmsmasters_slider_post_meta_info a,
+	.cmsmasters_posts_slider .project .slider_project_outer .slider_project_inner .cmsmasters_slider_project_cont_info_wrap .cmsmasters_slider_project_footer a,
+	.blog.opened-article .post .cmsmasters_post_cont_wrap .cmsmasters_post_cont .cmsmasters_post_meta_info a,
+	.cmsmasters_archive_type .cmsmasters_archive_item_type,
+	.widget_custom_posts_tabs_entries .cmsmasters_tabs.lpr .cmsmasters_tabs_wrap .cmsmasters_tab.tab_latest .cmsmasters_lpr_tabs_cont .published,
+	.widget_custom_posts_tabs_entries .cmsmasters_tabs.lpr .cmsmasters_tabs_wrap .cmsmasters_tab.tab_popular .cmsmasters_lpr_tabs_cont .published,
+	.widget_custom_posts_tabs_entries .cmsmasters_tabs.lpr .cmsmasters_tabs_wrap .cmsmasters_tab.tab_comments li small,
+	.widget_custom_posts_tabs_entries .cmsmasters_tabs.lpr .cmsmasters_tabs_list .cmsmasters_tabs_list_item > a {
+		font-size:11px;
+	}
+	
+	.cmsmasters_archive_type .cmsmasters_archive_item_type,
+	.widget_calendar #wp-calendar thead,
+	.widget_custom_posts_tabs_entries .cmsmasters_tabs.lpr .cmsmasters_tabs_list .cmsmasters_tabs_list_item > a {
+		text-transform:uppercase;
+	}
+	
+	.cmsmasters_archive_type .cmsmasters_archive_item_type,
+	.cmsmasters_twitter .cmsmasters_twitter_item_content a,
+	.footer_copyright,
+	.widget_tag_cloud .tagcloud a,
+	.widget_recent_comments a,
+	.widget_recent_entries a,
+	.widget_rss .rsswidget,
+	.widget_custom_posts_tabs_entries .cmsmasters_tabs.lpr .cmsmasters_tabs_wrap .cmsmasters_tab.tab_comments li a {
+		font-weight:500;
+	}
+	/* Finish Content Font */
+
+
+	/* Start Link Font */
+	a {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	a:hover {
+		text-decoration:none;
+	}
+	/* Finish Link Font */
+
+
+	/* Start Navigation Title Font */
+	.navigation > li > a, 
+	.top_line_nav > li > a {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:500;
+		font-style:normal;
+		text-transform:uppercase;
+	}
+	
+	.footer_nav > li > a {
+		font-size:12px;
+	}
+	
+	.top_line_nav > li > a {
+		font-size:11px;
+	}
+	
+	.navigation > li > a .nav_subtitle {
+		font-size:9px;
+		font-weight:600;
+		text-transform:uppercase;
+	}
+	
+	.navigation > li > a .nav_tag {
+		font-size:8px;
+		line-height:11px;
+		font-weight:700;
+		text-transform:uppercase;
+	}
+	/* Finish Navigation Title Font */
+
+
+	/* Start Navigation Dropdown Font */
+	.navigation ul li a,
+	.top_line_nav ul li a {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:none;
+	}
+	
+	.top_line_nav ul li a {
+		font-size:11px;
+	}
+	
+	.navigation .menu-item-mega-container > ul > li > a .nav_title {
+		font-weight:500;
+		vertical-align:bottom;
+	}
+	
+	.navigation ul li a .nav_tag {
+		font-size:10px;
+		line-height:11px;
+		font-weight:700;
+		text-transform:uppercase;
+	}
+	/* Finish Navigation Dropdown Font */
+
+
+	/* Start H1 Font */
+	h1,
+	h1 a,
+	.logo .title,
+	.cmsmasters_pricing_table .cmsmasters_pricing_item .pricing_title,
+	.cmsmasters_pricing_table .cmsmasters_pricing_item .cmsmasters_price_wrap .cmsmasters_price,
+	.cmsmasters_quotes_slider.cmsmasters_quotes_slider_type_center .quote_content,
+	.post.cmsmasters_post_default.format-standard .cmsmasters_post_cont > .cmsmasters_post_header h2 a,
+	.cmsmasters_profile.vertical .profile .pl_content .entry-title,
+	.cmsmasters_profile.vertical .profile .pl_content .entry-title a,
+	.blog.opened-article .post .cmsmasters_post_cont_wrap .cmsmasters_post_cont .cmsmasters_post_header .cmsmasters_post_title,
+	.blog.opened-article .post .cmsmasters_post_cont_wrap .cmsmasters_post_img_wrap .cmsmasters_post_header .cmsmasters_post_title,
+	.profiles.opened-article .profile .cmsmasters_profile_header .cmsmasters_profile_title {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:24px;
+		line-height:32px;
+		font-weight:500;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.cmsmasters_pricing_table .cmsmasters_pricing_item .pricing_title {
+		font-weight:400; /* static */
+	}
+	
+	.cmsmasters_pricing_table .cmsmasters_pricing_item .cmsmasters_price_wrap .cmsmasters_currency,
+	.cmsmasters_pricing_table .cmsmasters_pricing_item .cmsmasters_price_wrap .cmsmasters_price,
+	.cmsmasters_pricing_table .cmsmasters_pricing_item .cmsmasters_price_wrap .cmsmasters_coins,
+	.cmsmasters_quotes_slider.cmsmasters_quotes_slider_type_center .quote_content {
+		font-weight:300; /* static */
+	}
+	
+	.cmsmasters_pricing_table .cmsmasters_pricing_item .cmsmasters_price_wrap .cmsmasters_price {
+		font-size:72px;
+		line-height:54px;
+	}
+	
+	.cmsmasters_pricing_table .cmsmasters_pricing_item .cmsmasters_price_wrap .cmsmasters_currency,
+	.cmsmasters_pricing_table .cmsmasters_pricing_item .cmsmasters_price_wrap .cmsmasters_coins {
+		font-size:26px;
+		line-height:24px;
+	}
+	
+	.cmsmasters_dropcap {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-weight:500;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.cmsmasters_icon_list_items.cmsmasters_icon_list_icon_type_number .cmsmasters_icon_list_item .cmsmasters_icon_list_icon:before,
+	.cmsmasters_icon_box.box_icon_type_number:before,
+	.cmsmasters_icon_box.cmsmasters_icon_heading_left.box_icon_type_number .icon_box_heading:before {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-weight:500;
+		font-style:normal;
+	}
+	
+	.cmsmasters_dropcap.type1 {
+		font-size:36px; /* static */
+	}
+	
+	.cmsmasters_dropcap.type2 {
+		font-size:20px; /* static */
+	}
+	
+	.headline_outer .headline_inner .headline_icon:before {
+		font-size:28px;
+		line-height:42px;
+	}
+	
+	.headline_outer .headline_inner.align_center .headline_icon:before {
+		font-size:46px;
+		line-height:52px;
+	}
+	
+	.headline_outer .headline_inner.align_left .headline_icon {
+		padding-left:42px;
+	}
+	
+	.headline_outer .headline_inner.align_right .headline_icon {
+		padding-right:42px;
+	}
+	
+	.headline_outer .headline_inner.align_center .headline_icon {
+		padding-top:62px;
+	}
+	/* Finish H1 Font */
+
+
+	/* Start H2 Font */
+	h2,
+	h2 a,
+	.post_nav .post_nav_inner > span a,
+	.widget_custom_popular_projects_entries .entry-title,
+	.widget_custom_popular_projects_entries .entry-title a,
+	.widget_custom_latest_projects_entries .entry-title,
+	.widget_custom_latest_projects_entries .entry-title a,
+	.cmsmasters_stats.stats_mode_circles .cmsmasters_stat_wrap .cmsmasters_stat_counter_wrap, 
+	.cmsmasters_counters .cmsmasters_counter_wrap .cmsmasters_counter .cmsmasters_counter_inner .cmsmasters_counter_counter_wrap, 
+	.cmsmasters_sitemap_wrap .cmsmasters_sitemap > li > a, 
+	.comment-respond .comment-reply-title {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:20px;
+		line-height:26px;
+		font-weight:500;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.cmsmasters_stats.stats_mode_bars.stats_type_vertical .cmsmasters_stat_wrap .cmsmasters_stat .cmsmasters_stat_inner:before {
+		font-size:20px;
+	}
+	
+	.cmsmasters_stats.stats_mode_bars.stats_type_vertical .cmsmasters_stat_wrap .cmsmasters_stat .cmsmasters_stat_inner:before {
+		line-height:26px;
+	}
+	
+	.cmsmasters_stats.stats_mode_circles .cmsmasters_stat_wrap .cmsmasters_stat_counter_wrap .cmsmasters_stat_counter {
+		font-size:42px; /* static */
+		line-height:60px; /* static */
+		font-weight:300; /* static */
+	}
+	
+	.cmsmasters_stats.stats_mode_circles .cmsmasters_stat_wrap .cmsmasters_stat_counter_wrap .cmsmasters_stat_units {
+		font-size:18px; /* static */
+		line-height:42px; /* static */
+		font-weight:500; /* static */
+	}
+	
+	.cmsmasters_stats.stats_mode_circles .cmsmasters_stat_wrap .stat_has_titleicon .cmsmasters_stat_counter_wrap .cmsmasters_stat_counter {
+		font-size:34px; /* static */
+		line-height:52px; /* static */
+		font-weight:300; /* static */
+	}
+	
+	.cmsmasters_stats.stats_mode_circles .cmsmasters_stat_wrap .stat_has_titleicon .cmsmasters_stat_counter_wrap .cmsmasters_stat_units {
+		font-size:16px; /* static */
+		line-height:40px; /* static */
+		font-weight:500; /* static */
+	}
+	
+	.cmsmasters_counters .cmsmasters_counter_wrap .cmsmasters_counter .cmsmasters_counter_inner .cmsmasters_counter_counter_wrap {
+		font-size:60px;
+		line-height:68px;
+		font-weight:300; /* static */
+	}
+	
+	.cmsmasters_counters .cmsmasters_counter_wrap .cmsmasters_counter.counter_has_icon .cmsmasters_counter_inner .cmsmasters_counter_counter_wrap,
+	.cmsmasters_counters .cmsmasters_counter_wrap .cmsmasters_counter.counter_has_image .cmsmasters_counter_inner .cmsmasters_counter_counter_wrap {
+		font-size:44px;
+		line-height:56px;
+	}
+	
+	.cmsmasters_counters .cmsmasters_counter_wrap .cmsmasters_counter .cmsmasters_counter_inner:before {
+		font-size:30px;
+		line-height:42px;
+	}
+	
+	.cmsmasters_counters.counters_type_horizontal .cmsmasters_counter_wrap .cmsmasters_counter.counter_has_icon .cmsmasters_counter_inner {
+		padding-left:40px;
+	}
+	/* Finish H2 Font */
+
+
+	/* Start H3 Font */
+	h3,
+	h3 a,
+	.cmsmasters_stats.stats_mode_circles  .cmsmasters_stat_wrap .cmsmasters_stat_title,
+	.cmsmasters_counters .cmsmasters_counter_wrap .cmsmasters_counter .cmsmasters_counter_inner .cmsmasters_counter_title,
+	.cmsmasters_single_slider .cmsmasters_single_slider_item_title,
+	.cmsmasters_single_slider .cmsmasters_single_slider_item_title a,
+	.profiles.opened-article .profile .profile_sidebar .profile_details .profile_details_title,
+	.profiles.opened-article .profile .profile_sidebar .profile_details .profile_details_title a,
+	.profiles.opened-article .profile .profile_sidebar .profile_social_icons .profile_social_icons_title,
+	.profiles.opened-article .profile .profile_sidebar .profile_social_icons .profile_social_icons_title a,
+	.widgettitle {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:16px;
+		line-height:22px;
+		font-weight:500;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.bypostauthor > .comment-body .alignleft:before {
+		font-size:16px;
+	}
+	
+	.bypostauthor > .comment-body .alignleft:before {
+		line-height:22px;
+	}
+	
+	.bypostauthor > .comment-body .alignleft:before {
+		width:22px;
+	}
+	
+	.bypostauthor > .comment-body .alignleft:before {
+		height:22px;
+	}
+	/* Finish H3 Font */
+
+
+	/* Start H4 Font */
+	h4, 
+	h4 a, 
+	.cmsmasters_stats .cmsmasters_stat_wrap .cmsmasters_stat_title,
+	.cmsmasters_stats.stats_mode_bars .cmsmasters_stat_wrap .cmsmasters_stat_counter_wrap,
+	.cmsmasters_pricing_table .cmsmasters_pricing_item .cmsmasters_price_wrap .cmsmasters_price_price_period .cmsmasters_period,
+	.widget_custom_posts_tabs_entries .cmsmasters_tabs.lpr .cmsmasters_tabs_wrap .tab_latest .cmsmasters_lpr_tabs_cont > a,
+	.widget_custom_posts_tabs_entries .cmsmasters_tabs.lpr .cmsmasters_tabs_wrap .tab_popular .cmsmasters_lpr_tabs_cont > a,
+	.cmsmasters_sitemap_wrap .cmsmasters_sitemap > li > ul > li > a, 
+	.cmsmasters_sitemap_wrap .cmsmasters_sitemap_category > li > a {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:14px;
+		line-height:20px;
+		font-weight:500;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.cmsmasters_stats.stats_mode_bars .cmsmasters_stat_wrap .cmsmasters_stat_counter_wrap,
+	.cmsmasters_pricing_table .cmsmasters_pricing_item .cmsmasters_price_wrap .cmsmasters_price_price_period .cmsmasters_period {
+		font-weight:normal; /* static */
+	}
+	
+	.portfolio.opened-article .project .project_sidebar .project_details .project_details_item > div.project_details_item_title,
+	.profiles.opened-article .profile .profile_sidebar .profile_details .profile_details_item > div.profile_details_item_title {
+		font-weight:500;
+	}
+	/* Finish H4 Font */
+
+
+	/* Start H5 Font */
+	h5,
+	h5 a,
+	.cmsmasters_table tr th,
+	.cmsmasters_table tr td,
+	.share_posts a,
+	.comment-respond .comment-reply-title a,
+	.cmsmasters_tabs .cmsmasters_tabs_list .cmsmasters_tabs_list_item > a,
+	.cmsmasters_toggles .cmsmasters_toggle_title > a {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:400;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.cmsmasters_tabs.tabs_mode_tour .cmsmasters_tabs_list .cmsmasters_tabs_list_item > a,
+	.cmsmasters_toggles .cmsmasters_toggle_title > a {
+		font-size:14px;
+	}
+	
+	.cmsmasters_table tr th,
+	.cmsmasters_table tfoot tr td,
+	.cmsmasters_tabs .cmsmasters_tabs_list .cmsmasters_tabs_list_item > a,
+	.cmsmasters_toggles .cmsmasters_toggle_title > a {
+		font-weight:500; /* static */
+	}
+	/* Finish H5 Font */
+
+
+	/* Start H6 Font */
+	h6,
+	h6 a,
+	.headline_outer, 
+	.headline_outer a {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:12px;
+		line-height:18px;
+		font-weight:400;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	/* Finish H6 Font */
+
+
+	/* Start Button Font */
+	.cmsmasters_button, 
+	.button, 
+	input[type=submit], 
+	input[type=button], 
+	button,
+	.share_posts .share_posts_inner a,
+	.post_comments .cmsmasters_comment_item_cont_info > a {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:14px;
+		line-height:42px;
+		font-weight:500;
+		font-style:normal;
+		text-transform:uppercase;
+	}
+	
+	.post.cmsmasters_post_default .cmsmasters_post_footer .cmsmasters_post_read_more,
+	.post.cmsmasters_masonry_type .cmsmasters_post_footer .cmsmasters_post_read_more,
+	.post.cmsmasters_timeline_type .cmsmasters_post_footer .cmsmasters_post_read_more,
+	.post.cmsmasters_puzzle_type .puzzle_post_content_wrapper .cmsmasters_post_read_more,
+	.portfolio.grid .project .project_inner .cmsmasters_project_footer .cmsmasters_project_read_more,
+	.cmsmasters_items_filter_wrap .cmsmasters_items_filter_list li,
+	.cmsmasters_items_filter_wrap .cmsmasters_items_filter_list li a,
+	.cmsmasters_items_filter_wrap .cmsmasters_items_sort_block a,
+	.cmsmasters_posts_slider .post .cmsmasters_slider_post_cont .cmsmasters_slider_post_cont_wrap .cmsmasters_slider_post_footer .cmsmasters_post_read_more,
+	.post_nav .post_nav_inner > span span.sub {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:26px;
+		font-weight:500;
+		font-style:normal;
+		text-transform:uppercase;
+	}
+	
+	.share_posts .share_posts_inner a,
+	.post_comments .cmsmasters_comment_item_cont_info > a {
+		font-size:12px;
+	}
+	
+	.gform_wrapper .gform_footer input.button, 
+	.gform_wrapper .gform_footer input[type=submit] {
+		font-size:14px !important;
+	}
+	
+	.cmsmasters_button.cmsmasters_but_icon_dark_bg, 
+	.cmsmasters_button.cmsmasters_but_icon_light_bg, 
+	.cmsmasters_button.cmsmasters_but_icon_divider, 
+	.cmsmasters_button.cmsmasters_but_icon_inverse {
+		padding-left:62px;
+	}
+	
+	.cmsmasters_button.cmsmasters_but_icon_dark_bg:before, 
+	.cmsmasters_button.cmsmasters_but_icon_light_bg:before, 
+	.cmsmasters_button.cmsmasters_but_icon_divider:before, 
+	.cmsmasters_button.cmsmasters_but_icon_inverse:before, 
+	.cmsmasters_button.cmsmasters_but_icon_dark_bg:after, 
+	.cmsmasters_button.cmsmasters_but_icon_light_bg:after, 
+	.cmsmasters_button.cmsmasters_but_icon_divider:after, 
+	.cmsmasters_button.cmsmasters_but_icon_inverse:after {
+		width:42px;
+	}
+	/* Finish Button Font */
+
+
+	/* Start Small Text Font */
+	small,
+	form .formError .formErrorContent {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:10px;
+		line-height:16px;
+		font-weight:500;
+		font-style:normal;
+		text-transform:none;
+	}
+	
+	.gform_wrapper .description, 
+	.gform_wrapper .gfield_description, 
+	.gform_wrapper .gsection_description, 
+	.gform_wrapper .instruction {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif !important;
+		font-size:10px !important;
+		line-height:16px !important;
+	}
+	/* Finish Small Text Font */
+
+
+	/* Start Text Fields Font */
+	input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]),
+	textarea,
+	select,
+	option,
+	code {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+	}
+	
+	.gform_wrapper input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]),
+	.gform_wrapper textarea, 
+	.gform_wrapper select {
+		font-size:13px !important;
+	}
+	/* Finish Text Fields Font */
+
+
+	/* Start Blockquote Font */
+	blockquote {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:24px;
+		line-height:40px;
+		font-weight:300;
+		font-style:normal;
+	}
+	
+	q {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-weight:300;
+		font-style:normal;
+	}
+	/* Finish Blockquote Font */
+
+/***************** Finish Theme Font Styles ******************/
+
+
+
+/***************** Start WooCommerce Font Styles ******************/
+
+	/* Start Content Font */
+	ul.order_details li > strong {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+	}
+	
+	#page .shop_table td.product-quantity input {
+		font-size:12px;
+	}
+	
+	.cmsmasters_single_product .cmsmasters_woo_tabs #reviews #comments .commentlist .comment_container .comment-text .meta,
+	.widget ul.product_list_widget li del {
+		font-size:11px;
+	}
+	
+	.cmsmasters_dynamic_cart:hover .widget_shopping_cart_content, 
+	.cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:hover + .widget_shopping_cart_content, 
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content:hover {
+		top:35px;
+	}
+	
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content {
+		top:60px;
+	}
+	
+	.cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button {
+		height:20px;
+	}
+	
+	.widget ul.product_list_widget li > a,
+	.widget_shopping_cart .widget_shopping_cart_content .total > * {
+		font-weight:500; /* static */
+	}
+	/* Finish Content Font */
+	
+	
+	/* Start Link Font */
+	/* Finish Link Font */
+	
+	
+	/* Start H1 Font */
+	.cmsmasters_single_product .price ins,
+	.cmsmasters_single_product .price > .amount {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:24px;
+		line-height:32px;
+		font-weight:500;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	/* Finish H1 Font */
+	
+	
+	/* Start H2 Font */
+	.cmsmasters_single_product #comments > .cmsmasters_star_rating,
+	.cmsmasters_single_product #comments > .cmsmasters_star_rating .cmsmasters_star_color_inner,
+	.cmsmasters_single_product #comments > .cmsmasters_star_rating .cmsmasters_star {
+		height:26px;
+	}
+	/* Finish H2 Font */
+	
+	
+	/* Start H3 Font */
+	.cmsmasters_products .product .cmsmasters_product .cmsmasters_product_inner .cmsmasters_product_info .price ins,
+	.cmsmasters_products .product .cmsmasters_product .cmsmasters_product_inner .cmsmasters_product_info .price > .amount,
+	.cmsmasters_single_product .cmsmasters_woo_tabs #reviews #comments .commentlist .comment_container .comment-text h5,
+	.shop_table thead tr th,
+	ul.order_details li,
+	.product-category .woocommerce-loop-category__title {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:16px;
+		line-height:22px;
+		font-weight:500;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	ul.order_details li {
+		font-size:15px;
+	}
+	
+	.cmsmasters_star_rating .cmsmasters_star,
+	.cmsmasters_single_product .price del {
+		font-size:16px;
+	}
+	
+	.cmsmasters_star_rating .cmsmasters_star {
+		width:16px;
+	}
+	
+	.cmsmasters_star_rating,
+	.cmsmasters_star_rating .cmsmasters_star_color_inner,
+	.cmsmasters_star_rating .cmsmasters_star {
+		height:22px;
+	}
+	
+	.cmsmasters_star_rating,
+	.cmsmasters_star_rating .cmsmasters_star_color_inner {
+		width:80px;
+	}
+	/* Finish H3 Font */
+	
+	
+	/* Start H4 Font */
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a,
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .total > *,
+	.shop_table td.product-subtotal,
+	.shop_table td.product-name a,
+	.cart-collaterals .cart_totals .amount,
+	.woocommerce-MyAccount-content legend {
+		font-weight:500;
+	}
+	
+	.cmsmasters_single_product #comments .commentlist .cmsmasters_star_rating .cmsmasters_star {
+		font-size:14px;
+	}
+	
+	.cmsmasters_single_product #comments .commentlist .cmsmasters_star_rating .cmsmasters_star {
+		width:14px;
+	}
+	
+	.cmsmasters_single_product #comments .commentlist .cmsmasters_star_rating,
+	.cmsmasters_single_product #comments .commentlist .cmsmasters_star_rating .cmsmasters_star_color_inner {
+		width:70px;
+	}
+	/* Finish H4 Font */
+	
+	
+	/* Start H5 Font */
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a.remove {
+		line-height:20px;
+	}
+	/* Finish H5 Font */
+	
+	
+	/* Start H6 Font */
+	/* Finish H6 Font */
+	
+	
+	/* Start Button Font */
+	.onsale, 
+	.out-of-stock,
+	.cmsmasters_products .product .cmsmasters_product .cmsmasters_product_inner .cmsmasters_product_info .price del,
+	.cmsmasters_products .product .cmsmasters_product .cmsmasters_product_inner .cmsmasters_product_footer > a,
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button,
+	.woocommerce-MyAccount-navigation > ul > li > a {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:14px;
+		line-height:42px;
+		font-weight:500;
+		font-style:normal;
+		text-transform:uppercase;
+	}
+	
+	.shop_table td.actions .button {
+		font-size:13px;
+	}
+	
+	.onsale, 
+	.out-of-stock,
+	.cmsmasters_products .product .cmsmasters_product .cmsmasters_product_inner .cmsmasters_product_footer > a,
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button,
+	.widget_shopping_cart .widget_shopping_cart_content .buttons .button,
+	.widget_price_filter .price_slider_wrapper .price_slider_amount .button {
+		font-size:12px;
+		line-height:28px;
+	}
+	
+	.cmsmasters_products .product .cmsmasters_product .cmsmasters_product_inner .cmsmasters_product_info .price del {
+		font-size:12px;
+		line-height:22px;
+	}
+	
+	.cmsmasters_products .cmsmasters_product .cmsmasters_product_inner .cmsmasters_product_footer {
+		margin-bottom:-38px;
+	}
+	
+	.cmsmasters_single_product .cmsmasters_product_right_column .cart .quantity .qty {
+		height:42px;
+	}
+	/* Finish Button Font */
+	
+	
+	/* Start Text Fields Font */
+	.select2-dropdown {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+	}
+	/* Finish Text Fields Font */
+	
+	
+	/* Start Small Text Font */
+	/* Finish Small Text Font */
+
+/***************** Finish WooCommerce Font Styles ******************/
+
+
+
+/***************** Start Events Font Styles ******************/
+
+	/* Start Content Font */
+	#tribe-events-bar #tribe-bar-views *,
+	#tribe-events-content.tribe-events-month table.tribe-events-calendar tbody td div[id*=tribe-events-event-] .tribe-events-month-event-title,
+	#tribe-events-content.tribe-events-month table.tribe-events-calendar tbody td div[id*=tribe-events-event-] .tribe-events-month-event-title a {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+	}
+	
+	.cmsmasters_row .tribe-events-countdown-widget .tribe-countdown-time .tribe-countdown-timer .tribe-countdown-number .tribe-countdown-under {
+		font-size:13px;
+		line-height:20px;
+	}
+	
+	#tribe-events-content.tribe-events-month table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-],
+	#tribe-events-content.tribe-events-month table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] a,
+	.tribe-events-tooltip,
+	#tribe-events-content.tribe-events-list .vevent .cmsmasters_events_list_event_wrap .tribe-events-list-event-description .tribe-events-read-more {
+		font-size:12px;
+		line-height:18px;
+	}
+	
+	.widget.tribe_mini_calendar_widget .tribe-mini-calendar-wrapper .tribe-mini-calendar-grid-wrapper .tribe-mini-calendar tbody td div,
+	.widget.tribe_mini_calendar_widget .tribe-mini-calendar-wrapper .tribe-mini-calendar-grid-wrapper .tribe-mini-calendar tbody td div *,
+	.widget.tribe_mini_calendar_widget .tribe-mini-calendar-wrapper .tribe-mini-calendar-grid-wrapper .tribe-mini-calendar th.tribe-mini-calendar-dayofweek,
+	.tribe-events-countdown-widget .tribe-countdown-time .tribe-countdown-timer .tribe-countdown-number .tribe-countdown-under {
+		font-size:11px;
+		line-height:16px;
+	}
+	
+	#tribe-events-bar .tribe-bar-filters .tribe-bar-filters-inner > div label,
+	#tribe-events-bar #tribe-bar-views *,
+	#tribe-events-content.tribe-events-month table.tribe-events-calendar thead th,
+	#tribe-events-content.tribe-events-month table.tribe-events-calendar tbody td div[id*=tribe-events-event-] .tribe-events-month-event-title,
+	#tribe-events-content.tribe-events-month table.tribe-events-calendar tbody td div[id*=tribe-events-event-] .tribe-events-month-event-title a,
+	#tribe-events-content.tribe-events-list .vevent .cmsmasters_events_list_event_wrap .tribe-events-list-event-description,
+	#tribe-events-content.tribe-events-list .vevent .cmsmasters_events_list_event_wrap .tribe-events-list-event-description .tribe-events-read-more,
+	#tribe-events-content.tribe-events-list .vevent .cmsmasters_events_list_event_wrap .tribe-events-event-meta *,
+	#tribe-events-content.tribe-events-week-grid .tribe-events-grid .tribe-week-event > div:first-child > .entry-title,
+	#tribe-events-content.tribe-events-week-grid .tribe-events-grid .tribe-week-event > div:first-child > .entry-title a,
+	#tribe-events-content.tribe-events-week-grid .tribe-events-grid .tribe-grid-header .tribe-grid-content-wrap .column,
+	#tribe-events-content.tribe-events-week-grid .tribe-events-grid .tribe-grid-header .tribe-grid-content-wrap .column a,
+	#tribe-events-content.tribe-events-single .cmsmasters_single_event_header .cmsmasters_single_event_header_left .tribe-events-schedule,
+	#tribe-events-content.tribe-events-single .cmsmasters_single_event_meta .tribe-events-meta-group .cmsmasters_event_meta_info,
+	#tribe-events-content.tribe-events-single .cmsmasters_single_event_meta .tribe-events-meta-group .cmsmasters_event_meta_info a,
+	.widget.tribe_mini_calendar_widget .tribe-mini-calendar-wrapper .tribe-mini-calendar-list-wrapper .tribe-events-loop .type-tribe_events .tribe-mini-calendar-event .tribe-events-list-widget-content-wrap .cmsmasters_widget_event_info > div *,
+	.widget.tribe_mini_calendar_widget .tribe-mini-calendar-wrapper .tribe-mini-calendar-grid-wrapper .tribe-mini-calendar .tribe-mini-calendar-nav div > span,
+	.tribe-events-countdown-widget .tribe-countdown-time .tribe-countdown-timer .tribe-countdown-number .tribe-countdown-under,
+	.widget ol.vcalendar li .cmsmasters_widget_event_info *,
+	.widget ul.vcalendar li .cmsmasters_widget_event_info *,
+	.widget .tribe-events-widget-link a,
+	.widget.tribe-this-week-events-widget .tribe-events-page-title {
+		font-weight:500;
+	}
+	
+	#tribe-events-bar #tribe-bar-views *,
+	#tribe-events-content.tribe-events-month table.tribe-events-calendar thead th,
+	#tribe-events-content.tribe-events-list .vevent .cmsmasters_events_list_event_wrap .tribe-events-list-event-description .tribe-events-read-more,
+	#tribe-events-content.tribe-events-week-grid .tribe-events-grid .tribe-grid-header .tribe-grid-content-wrap .column,
+	#tribe-events-content.tribe-events-week-grid .tribe-events-grid .tribe-grid-header .tribe-grid-content-wrap .column a,
+	.widget.tribe_mini_calendar_widget .tribe-mini-calendar-wrapper .tribe-mini-calendar-grid-wrapper .tribe-mini-calendar .tribe-mini-calendar-nav div > span,
+	.tribe-events-countdown-widget .tribe-countdown-time .tribe-countdown-timer .tribe-countdown-number .tribe-countdown-under,
+	.widget .tribe-events-widget-link a {
+		text-transform:uppercase;
+	}
+	/* Finish Content Font */
+	
+	
+	/* Start Link Font */
+	/* Finish Link Font */
+	
+	
+	/* Start H1 Font */
+	#tribe-events-content.tribe-events-single .cmsmasters_single_event_header .cmsmasters_single_event_header_left .tribe-events-single-event-title,
+	.tribe-events-venue .cmsmasters_events_venue_header .cmsmasters_events_venue_header_left .entry-title {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:24px;
+		line-height:32px;
+		font-weight:500;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	/* Finish H1 Font */
+	
+	
+	/* Start H2 Font */
+	#tribe-events-content.tribe-events-photo .tribe-events-photo-event .tribe-events-event-details .tribe-events-list-event-title,
+	#tribe-events-content.tribe-events-photo .tribe-events-photo-event .tribe-events-event-details .tribe-events-list-event-title a,
+	.cmsmasters_row .tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap .entry-title,
+	.cmsmasters_row .tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap .entry-title a {
+		font-family:'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:20px;
+		line-height:26px;
+		font-weight:500;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	/* Finish H2 Font */
+	
+	
+	/* Start H3 Font */
+	.widget.tribe-events-countdown-widget .tribe-countdown-text,
+	.widget.tribe-events-countdown-widget .tribe-countdown-text a,
+	.widget.tribe-events-venue-widget .tribe-venue-widget-wrapper .tribe-venue-widget-venue .tribe-venue-widget-venue-name,
+	.widget.tribe-events-venue-widget .tribe-venue-widget-wrapper .tribe-venue-widget-venue .tribe-venue-widget-venue-name a {
+		font-size:16px;
+		line-height:22px;
+		font-weight:500;
+	}
+	/* Finish H3 Font */
+	
+	
+	/* Start H4 Font */
+	.tribe-events-tooltip .entry-title,
+	.tribe-events-tooltip .tribe-event-title {
+		font-size:13px;
+		line-height:18px;
+	}
+	/* Finish H4 Font */
+	
+	
+	/* Start H5 Font */
+	.widget.tribe-this-week-events-widget .tribe-events-page-title {
+		font-size:13px;
+		line-height:20px;
+	}
+	/* Finish H5 Font */
+	
+	
+	/* Start H6 Font */
+	/* Finish H6 Font */
+	
+	
+	/* Start Button Font */
+	/* Finish Button Font */
+	
+	
+	/* Start Small Text Font */
+	/* Finish Small Text Font */
+
+/***************** Finish Events Font Styles ******************/
+
+

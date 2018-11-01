@@ -1,0 +1,633 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	All Business
+ * @version 	1.0.0
+ * 
+ * Responsive Events CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+
+/*-------------------------------------------------------------------------
+
+	0.	LESS Variables + Functions
+	1.	Medium Monitor
+	2.	Tablet Monitor
+	3.	Small Tablet Monitor
+	4.	Phone Monitor
+
+-------------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	0.	LESS Variables & Functions	*/
+/*-------------------------------------------------------------------------*/
+
+/***************** Variables ******************/
+@line_height_pad: 20px;
+@blocks_hor_pad: 20px;
+@cont_vert_pad: 30px;
+
+@input_pad: 8px;
+
+@col_mar: 2%;
+
+
+
+@resp_blocks_pad: 46.5%;
+
+
+@headline_vert_pad: 12px;
+
+@monitor_large: ~'(min-width: 1440px)';
+@monitor_large_medium: ~'(min-width: 1024px) and (max-width: 1440px)';
+@monitor_medium: ~'(min-width: 1024px)';
+@monitor_tablet: ~'(max-width: 1024px)';
+@monitor_tablet_950: ~'(max-width: 950px)';
+@monitor_tablet_small: ~'(max-width: 767px)';
+@monitor_tablet_600: ~'(max-width: 600px)';
+@monitor_phone: ~'(max-width: 540px)';
+@monitor_phone_small: ~'(max-width: 320px)';
+
+@tablet_ipad: ~'(min-width: 768px) and (max-width: 1024px)';
+@tablet_small: ~'(min-width: 541px) and (max-width: 767px)';
+
+
+/***************** Functions ******************/
+.fl () {
+	float:left;
+}
+
+.fr () {
+	float:right;
+}
+
+.dn () {
+	display:none;
+}
+
+.tal () {
+	text-align:left;
+}
+
+.tac () {
+	text-align:center;
+}
+
+.tar () {
+	text-align:right;
+}
+
+.cl () {
+	clear:both;
+}
+
+.ovh () {
+	overflow:hidden;
+}
+
+.m0a () {
+	margin:0 auto;
+}
+
+.bd (@w:1px; @t:solid) {
+	border-width:@w;
+	border-style:@t;
+}
+
+.bdt (@w:1px; @t:solid) {
+	border-top-width:@w;
+	border-top-style:@t;
+}
+
+.bdb (@w:1px; @t:solid) {
+	border-bottom-width:@w;
+	border-bottom-style:@t;
+}
+
+.bdr (@w:1px; @t:solid) {
+	border-right-width:@w;
+	border-right-style:@t;
+}
+
+.bdl (@w:1px; @t:solid) {
+	border-left-width:@w;
+	border-left-style:@t;
+}
+
+.color_white_opacity (@op:.5) {
+	color:rgba(255, 255, 255, @op);
+}
+
+.bg_white_opacity (@op:.5) {
+	background-color:rgba(255, 255, 255, @op);
+}
+
+.fullwidth_in_block () {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.op (@op:.5) {
+	opacity:@op;
+}
+
+.cl_after () {
+	content:'.';
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	overflow:hidden;
+}
+
+.pos_abs (@w:1em; @h:1em; @l:0; @r:0; @t:0; @b:0) {
+	width:@w;
+	height:@h;
+	margin:auto !important;
+	position:absolute;
+	left:@l;
+	right:@r;
+	top:@t;
+	bottom:@b;
+}
+
+.bdbx () {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.ctbx () {
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box;
+}
+
+.bdrs (@radius:5px) {
+	-webkit-border-radius:@radius;
+	border-radius:@radius;
+}
+
+.bxsh (@x:0; @y:0; @blur:5px; @spred:0; @alpha:.05) {
+	-webkit-box-shadow:@x @y @blur @spred rgba(0, 0, 0, @alpha);
+	box-shadow:@x @y @blur @spred rgba(0, 0, 0, @alpha);
+}
+
+.bxshi (@x:0; @y:0; @blur:5px; @spred:0; @alpha:.05) {
+	-webkit-box-shadow:inset @x @y @blur @spred rgba(0, 0, 0, @alpha);
+	box-shadow:inset @x @y @blur @spred rgba(0, 0, 0, @alpha);
+}
+
+.bxsh_none () {
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+
+.trans(@trans:0) when not (@trans = 0) {
+    -webkit-transition:@trans;
+    -moz-transition:@trans;
+    -ms-transition:@trans;
+    -o-transition:@trans;
+    transition:@trans;
+}
+
+.arrow_top (@h:5px; @w:5px) {
+	border-top:0 solid transparent !important;
+	border-left:@w solid transparent !important;
+	border-right:@w solid transparent !important;
+	border-bottom-width:@h;
+	border-bottom-style:solid;
+}
+
+.arrow_bottom (@h:5px; @w:5px) {
+	border-bottom:0 solid transparent !important;
+	border-left:@w solid transparent !important;
+	border-right:@w solid transparent !important;
+	border-top-width:@h;
+	border-top-style:solid;
+}
+
+.arrow_left (@h:5px; @w:5px) {
+	border-left:0 solid transparent !important;
+	border-top:@w solid transparent !important;
+	border-bottom:@w solid transparent !important;
+	border-right-width:@h;
+	border-right-style:solid;
+}
+
+.arrow_right (@h:5px; @w:5px) {
+	border-right:0 solid transparent !important;
+	border-top:@w solid transparent !important;
+	border-bottom:@w solid transparent !important;
+	border-left-width:@h;
+	border-left-style:solid;
+}
+
+.arrow_top_left (@h:5px; @w:5px) {
+	border-right:@w solid transparent !important;
+	border-left:0 solid transparent !important;
+	border-bottom:0 solid transparent !important;
+	border-top-width:@h;
+	border-top-style:solid;
+}
+
+.arrow_top_right (@h:5px; @w:5px) {
+	border-bottom:@h solid transparent !important;
+	border-top:0 solid transparent !important;
+	border-left:0 solid transparent !important;
+	border-right-width:@w;
+	border-right-style:solid;
+}
+
+.arrow_bottom_left (@h:5px; @w:5px) {
+	border-top:@h solid transparent !important;
+	border-right:0 solid transparent !important;
+	border-bottom:0 solid transparent !important;
+	border-left-width:@w;
+	border-left-style:solid;
+}
+
+.arrow_bottom_right (@h:5px; @w:5px) {
+	border-left:@w solid transparent !important;
+	border-top:0 solid transparent !important;
+	border-right:0 solid transparent !important;
+	border-bottom-width:@h;
+	border-bottom-style:solid;
+}
+
+
+
+@media only screen {
+	/*-------------------------------------------------------------------------*/
+	/*	1. Medium Monitor
+	/*-------------------------------------------------------------------------*/
+	@media @monitor_large {
+		.cmsmasters_boxed {
+			.content_wrap.fullwidth {
+				#tribe-events-bar {
+					#tribe-bar-views {
+						margin:0 -40px 35px;
+						padding:0 40px;
+						
+						&:before {
+							width:100%;
+							left:0;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	@media @monitor_large_medium {
+		.tribe-events-venue {
+			position:relative;
+		}
+	}
+	
+	
+	
+	/*-------------------------------------------------------------------------*/
+	/*	2.	Tablet Monitor
+	/*-------------------------------------------------------------------------*/
+	@media @monitor_tablet {
+		#tribe-events-content {
+			&.tribe-events-list {
+				.vevent {
+					.tribe-events-event-image {
+						width:40%;
+					}
+				}
+			}
+			
+			&.tribe-events-photo {
+				#tribe-events-photo-events {
+					margin:0 -(@col_mar + 0.2);
+				}
+			}
+			
+			&.tribe-events-single {
+				.cmsmasters_single_event_meta {
+					&.cmsmasters_event_meta_info_col_4 {
+						.tribe-events-meta-group {
+							width:round((100% / 2) - (@col_mar * 2), 2);		
+					
+							&:nth-child(2n + 1) {
+								clear:left;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	
+	
+	/*-------------------------------------------------------------------------*/
+	/*	3.	Small Tablet Monitor
+	/*-------------------------------------------------------------------------*/
+	@media @monitor_tablet_small {
+		#main {
+			#tribe-events-bar .tribe-bar-filters .tribe-bar-filters-inner > div {
+				width:96%;
+			}
+			
+			.tribe-events-uses-geolocation #tribe-events-bar .tribe-bar-filters .tribe-bar-filters-inner > div {
+				width:46%;
+			}
+			
+			#tribe-events-bar {
+				.tac;
+				
+				#tribe-bar-views {
+					.tribe-bar-views-inner {
+						.tac;
+					}
+					
+					label.button {
+						min-width:160px;
+						display:inline-block;
+						float:none;
+					}
+					
+					&.tribe-bar-views-open {
+						ul.tribe-bar-views-list {
+							display:block;
+						}
+					}
+					
+					ul.tribe-bar-views-list {
+						float:none;
+					}
+				}
+			}
+			
+			#tribe-events-content {
+				&.tribe-events-month {
+					table.tribe-events-calendar {
+						thead {
+							th {
+								padding:5px;
+								.tac;
+							}
+						}
+					
+						tbody {
+							td {
+								height:45px;
+								.trans(~'background-color .3s ease-in-out, color .3s ease-in-out');
+								
+								&.tribe-events-has-events {
+									position:relative;
+									cursor:pointer;
+									
+									&:before {
+										content:'';
+										.pos_abs(7px, 7px, 0, 0, auto, 9px);
+										.bdrs(50%);
+										.trans(~'background-color .3s ease-in-out');
+									}
+								}
+								
+								&.tribe-events-thismonth {
+									position:relative;
+								}
+								
+								div[id*="tribe-events-daynum-"] {
+									padding:0;
+									.tac;
+									.bdb(0);
+									.trans(~'background-color .3s ease-in-out, color .3s ease-in-out');
+									
+									a {
+										.tac;
+									}
+								}
+								
+								div[id*="tribe-events-event-"] {
+									display:none;
+								}
+								
+								.tribe-events-viewmore {
+									display:none;
+								}
+							}
+						}
+					}
+				}
+				
+				&.tribe-events-list {
+					.vevent {
+						.tribe-events-event-image {
+							width:100%;
+							padding:0;
+							margin:0 0 15px;
+							float:none;
+							.cl;
+						}
+						
+						.cmsmasters_events_list_event_wrap {
+							.cmsmasters_events_list_event_header {
+								.tribe-events-list-event-title, 
+								.tribe-events-event-cost {
+									margin-top:0;
+								}
+							}
+						}
+					}
+				}
+				
+				&.tribe-events-photo {
+					#tribe-events-photo-events {
+						margin:0 -(@col_mar + 0.2);
+					}
+				}
+				
+				&.tribe-events-week-grid {
+					.tribe-events-grid {
+						display:none;
+					}
+				}
+			
+				&.tribe-events-single {
+					.cmsmasters_single_event_header {
+						.cmsmasters_single_event_header_left, 
+						.cmsmasters_single_event_header_right {
+							float:none;
+							clear:both;
+							.tac;
+							
+							* {
+								.tac;
+							}
+						}
+						
+						.cmsmasters_single_event_header_left {
+							.cmsmasters_event_date {
+								display:inline-block;
+								float:none;
+								margin:0 0 30px;
+							}
+							
+							.cmsmasters_single_event_header_left_inner {
+								float:none;
+							}
+						}
+						
+						.cmsmasters_single_event_header_right {
+							padding-top:25px;
+							
+							.tribe-events-cal-links {
+								display:inline-block;
+							}
+						}
+					}
+				
+					.cmsmasters_single_event_meta {
+						&.cmsmasters_event_meta_info_col_3 {
+							.tribe-events-meta-group {
+								width:round(100% - (@col_mar * 2), 2);
+							}
+						}
+					}
+				}
+			}
+			
+			#tribe-mobile-container {
+				display:block;
+			}
+			
+			.tribe-events-organizer {
+				.cmsmasters_events_organizer_header {
+					.cmsmasters_events_organizer_header_left, 
+					.cmsmasters_events_organizer_header_right {
+						float:none;
+						.tac;
+						.cl;
+						
+						* {
+							.tac;
+						}
+					}
+					
+					.cmsmasters_events_organizer_header_right {
+						padding-top:25px;
+						
+						a {
+							display:inline-block;
+						}
+					}
+				}
+			}
+			
+			.tribe-events-venue {
+				.cmsmasters_events_venue_header {
+					.cmsmasters_events_venue_header_left, 
+					.cmsmasters_events_venue_header_right {
+						float:none;
+						.tac;
+						.cl;
+						
+						* {
+							.tac;
+						}
+					}
+					
+					.cmsmasters_events_venue_header_right {
+						padding-top:25px;
+						
+						a {
+							display:inline-block;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	
+	
+	/*-------------------------------------------------------------------------*/
+	/*	4.	Phone Monitor
+	/*-------------------------------------------------------------------------*/
+	@media @monitor_phone {
+		#main {
+			#tribe-events-content {
+				&.tribe-events-photo {
+					#tribe-events-photo-events {
+						.tribe-events-photo-event {
+							width:100%;
+							float:none;
+							.cl;
+						}
+					}
+				}
+				
+				&.tribe-events-single {
+					.cmsmasters_single_event_inner {
+						.cmsmasters_single_event_img, 
+						.cmsmasters_single_event_map {
+							width:100%;
+							padding:0;
+							float:none;
+							.cl;
+						}
+						
+						.cmsmasters_single_event_img + .cmsmasters_single_event_map {
+							padding-top:20px;
+						}
+					}
+					
+					.cmsmasters_single_event_meta {
+						.tribe-events-meta-group {
+							width:round(100% - (@col_mar * 2), 2);
+							float:none;
+							.cl;
+						}
+					}
+				}
+			}
+			
+			#tribe-geo-map-wrapper {
+				#tribe-geo-map {
+					padding-bottom:100%;
+				}
+			}
+			
+			ul.tribe-related-events {
+				> li {
+					width:round(100% - (@col_mar * 2), 2);
+					float:none;
+					.cl;
+				}
+			}
+			
+			.tribe-events-venue {
+				.tribe-events-venue-meta {
+					.cmsmasters_events_venue_meta_inner {
+						.cmsmasters_events_venue_meta_img, 
+						.cmsmasters_events_venue_meta_map {
+							width:100%;
+							padding:0;
+							float:none;
+							.cl;
+						}
+						
+						.cmsmasters_events_venue_meta_img + .cmsmasters_events_venue_meta_map {
+							padding-top:20px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

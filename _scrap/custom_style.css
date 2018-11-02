@@ -1,5 +1,5 @@
 .nav_item_wrap {
-letter-spacing:1px !important;
+  letter-spacing: 1px !important;
 }
 
 .downloadsLi::before {
@@ -170,11 +170,11 @@ hr {
   background-color: #5a6872;
   padding: 0;
 }
+
 /*
 .header_mid .logo_wrap .title {
   font-size: 4em;
 } */
-
 .headline {
   display: none !important;
 }
@@ -226,51 +226,65 @@ hr {
   }
 }
 
-.header_mid .logo_wrap .title {
-    padding-right:20%;
-}
-
 ::selection {
-    background-color:#5a6872 !important;
+  background-color: #5a6872 !important;
 }
 
 .nf-fu-progress {
-    background-color: transparent!important;
-    box-shadow:none !important;
-    height:10px !important;
-    margin-bottom:0 !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  height: 10px !important;
+  margin-bottom: 0 !important;
 }
 
 .files_uploaded p {
-    padding:0 !important;
+  padding: 0 !important;
 }
 
 #nf-field-8-container {
-    margin-bottom:0 !important;
+  margin-bottom: 0 !important;
 }
 
 /* styling for show more buttons */
-
 .ult_expheader {
-    font-size:12px !important;
-    text-align:center !important;
-    line-height:2.5em !important;
-    text-transform:uppercase !important;
+  font-size: 12px !important;
+  text-align: center !important;
+  line-height: 2.5em !important;
+  text-transform: uppercase !important;
 }
 
 .ult_exp_section {
-    padding: 0 1rem !important;
-
+  padding: 0 1rem !important;
 }
 
 .nf-before-form-content {
-    margin-bottom:10px !important;
+  margin-bottom: 10px !important;
 }
 
 #nf-label-field-14 {
- display:none !important;
+  display: none !important;
 }
 
 #nf-field-4-container {
-    margin-bottom:0 !important;
+  margin-bottom: 0 !important;
+}
+
+.header_mid .logo_wrap .title {
+  font-size: 2em !important;
+  line-height: 2.04em !important;
+}
+
+.title_text {
+  font-size: 1.5em !important;
+  line-height: 1.53em !important;
+}
+
+.header_bot_inner {
+  padding-left: 10px !important;
+}
+
+.footer_copyright, .copyright, .footer_custom_html , .footer_custom_html a {
+  font-size: 1em !important;
+  line-height: 1.25em !important;
+  color:#cdd1d4 !important;
 }

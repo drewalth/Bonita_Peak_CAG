@@ -197,10 +197,6 @@ hr {
   .pageContent {
     padding-right: 5%;
   }
-
-  .header_mid .logo_wrap .title {
-    font-size: 2.5em;
-  }
 }
 
 @media screen and (max-width:414px) {
@@ -210,10 +206,6 @@ hr {
 
   .pageContent {
     padding: 15px;
-  }
-
-  .header_mid .logo_wrap .title {
-    font-size: 2em;
   }
 
   #contactInfo .vc_column-inner {
@@ -270,21 +262,42 @@ hr {
 }
 
 .header_mid .logo_wrap .title {
-  font-size: 2em !important;
-  line-height: 2.04em !important;
+  font-size: 3em !important;
+  line-height: 1.05em !important;
+}
+
+@media screen and (max-width: 768px) {
+  .header_mid .logo_wrap .title {
+    font-size: 2em !important;
+    line-height: 1.25em !important;
+  }
 }
 
 .title_text {
   font-size: 1.5em !important;
   line-height: 1.53em !important;
+  padding-top:15px !important;
 }
 
 .header_bot_inner {
   padding-left: 10px !important;
 }
 
-.footer_copyright, .copyright, .footer_custom_html , .footer_custom_html a {
+.footer_copyright, .copyright, .footer_custom_html, .footer_custom_html a {
   font-size: 1em !important;
   line-height: 1.25em !important;
-  color:#cdd1d4 !important;
+  color: #cdd1d4 !important;
+}
+
+#signUpButton {
+  width: 100% !important;
+  padding: 15px !important;
+  text-align: center;
+  background-color: #5a6872;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+#signUpButton:hover {
+  background-color: #8897a2;
 }

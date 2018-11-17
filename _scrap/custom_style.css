@@ -1,3 +1,8 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .nav_item_wrap {
   letter-spacing: 1px !important;
 }
@@ -276,7 +281,7 @@ hr {
 .title_text {
   font-size: 1.5em !important;
   line-height: 1.53em !important;
-  padding-top:15px !important;
+  padding-top: 15px !important;
 }
 
 .header_bot_inner {
@@ -300,4 +305,50 @@ hr {
 
 #signUpButton:hover {
   background-color: #8897a2;
+}
+
+@media screen and (max-width:1024px) {
+  .header_mid_inner {
+    background-color: #f4f7fb !important;
+  }
+
+  .header_bot_inner {
+    padding-left: 0 !important;
+  }
+}
+
+@media screen and (max-width:414px) {
+  .title {
+    margin-bottom: 1em !important;
+  }
+
+  .title_text {
+    font-size: 1.25em !important;
+  }
+
+  #nf-field-6, #nf-field-9, #nf-field-2 {
+    margin: 70px 0 0 -156px !important;
+  }
+
+  #nf-field-12-wrap li {
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width:375px) {
+  #nf-field-7 {
+    margin: 0 0 0 -154px !important;
+  }
+
+  #nf-field-6, #nf-field-9, #nf-field-2 {
+    margin: 70px 0 0 -154px !important;
+  }
+
+  #nf-field-12-wrap li {
+    width: 50% !important;
+  }
+
+  #nf-field-5, #nf-field-1, #nf-field-10 {
+    margin: 0 0 0 -17px !important;
+  }
 }

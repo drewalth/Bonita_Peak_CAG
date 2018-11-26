@@ -34,7 +34,6 @@ body {
 }
 
 .bx--btn {
-  font-family: "ibm-plex-sans", Helvetica Neue, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 0;
@@ -326,7 +325,7 @@ hr {
     font-size: 1.25em !important;
   }
 
-  #nf-field-6, #nf-field-9, #nf-field-2 {
+  #nf-field-6, #nf-field-9, #nf-field-16 {
     margin: 70px 0 0 -156px !important;
   }
 
@@ -340,7 +339,7 @@ hr {
     margin: 0 0 0 -154px !important;
   }
 
-  #nf-field-6, #nf-field-9, #nf-field-2 {
+  #nf-field-6, #nf-field-9, #nf-field-16 {
     margin: 70px 0 0 -154px !important;
   }
 
@@ -348,7 +347,7 @@ hr {
     width: 50% !important;
   }
 
-  #nf-field-5, #nf-field-1, #nf-field-10 {
+  #nf-field-5, #nf-field-1, #nf-field-10, #nf-field-2 {
     margin: 0 0 0 -17px !important;
   }
 }
